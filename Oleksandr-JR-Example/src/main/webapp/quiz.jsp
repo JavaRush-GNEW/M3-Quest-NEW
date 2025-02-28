@@ -23,7 +23,10 @@
 <body>
 
 
-<%= request.getSession().getAttribute("questions")  %>
+<%--<%= request.getSession().getAttribute("questions")  %>--%>
+
+<h2>Test</h2>
+<%= session.getAttribute("test") %>
 
 
 </body>

@@ -21,10 +21,12 @@ public class QuizServlet extends HttpServlet {
         ArrayList<Question> questions = questionRepository.getAll();
 
 
-        req.getSession().setAttribute("questions", questions);
+        req.getSession().setAttribute("test", "Привіт!");
 
-        // Forwarding to the JSP page
-        getServletContext().getRequestDispatcher("/quiz.jsp").forward(req, resp);
+
+        // redirect
+
+        resp.sendRedirect(req.getContextPath() + "/quiz.jsp");
     }
 
     @Override
