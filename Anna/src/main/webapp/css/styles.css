@@ -1,0 +1,48 @@
+body {
+    background-color: #3e2723;
+    color: #ffcc80;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Comic Sans MS', sans-serif;
+}
+
+.container {
+    max-width: 800px;
+}
+
+.text-shadow {
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+}
+
+.btn-custom {
+    background-color: gold;
+    color: black;
+    font-size: 1.2em;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+.btn-custom:hover {
+    background-color: darkgoldenrod;
+}
+
+.game-image {
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.card-title {
+    color: #000000;
+}
+
+.card {
+    background-color: #baac8d;
+    color: #5E4B3C;
+}
+
+.btn-primary {
+    color: #000000;
+    background-color: rgb(237, 202, 15);
+    border-color: black;
+}
